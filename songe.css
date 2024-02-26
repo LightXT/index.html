@@ -1,0 +1,43 @@
+header {
+    font-size: 36px; /* Specific font size in pixels */
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(169, 147, 61);
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/25/23/15/moon-1859616_1280.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    color: #b8b8bd;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use Flexbox to align content */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+}
+
+main {
+    text-align: center; /* Center text horizontally */
+    background-color: rgba(23, 13, 80, 0.8); /* Add a semi-transparent white background */
+    padding: 20px; /* Add padding to create some space around the content */
+    border-radius: 10px; /* Add rounded corners to the main section */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}
+
+h1 {
+    font-size: 2.5em; /* Increase font size for headings */
+    color: #6f5585; /* Change heading color */
+}
+
+p {
+    font-size: 1.2em; /* Increase font size for paragraphs */
+    margin-bottom: 20px; /* Add some space between paragraphs */
+}
+
+footer {
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Fallback font family */
+    color: white;
+}
